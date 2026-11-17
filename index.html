@@ -1,4 +1,4 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#171124"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="ゆあ大作戦"><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="./icon-192.png"><title>スナックゆあ 売上管理 v9.6.9</title><style>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#171124"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="ゆあ大作戦"><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="./icon-192.png"><title>スナックゆあ 売上管理 v9.6.11.1</title><style>
 :root{font-family:-apple-system,BlinkMacSystemFont,'Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif;color:#f6f2fa;background:#120e1a}*{box-sizing:border-box}body{margin:0}button,input,select{font:inherit}button{cursor:pointer;touch-action:manipulation}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #f4ba64;outline-offset:2px}.wrap{max-width:740px;margin:auto;padding:22px 16px 70px}header{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:24px}.logo{font-size:25px;font-weight:800;letter-spacing:.04em}.logo small{font-size:12px;font-weight:500;color:#cbbbd9;display:block;letter-spacing:0;margin-top:4px}.badge{color:#f9d79d;background:#3b2d36;padding:7px 10px;border:1px solid #7f625e;border-radius:50px;font-size:12px;white-space:nowrap}.card{background:#21192e;border:1px solid #493952;border-radius:17px;padding:17px;margin:14px 0}.section{font-size:16px;font-weight:700;margin:0 0 12px}.muted{color:#b9aec7;font-size:13px}.hero{display:grid;grid-template-columns:1fr 1fr;gap:10px}.stat{background:#2c223b;padding:15px;border-radius:13px}.stat strong{display:block;font-size:26px;margin-top:9px;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}.stat span{font-size:12px;color:#cbbfd5}.stat.primary{background:linear-gradient(145deg,#694a68,#473051)}.stat.primary strong{font-size:28px}.row{display:flex;gap:9px;flex-wrap:wrap;align-items:center}.row>*{min-width:0}.field{display:flex;flex-direction:column;gap:6px;flex:1 1 130px;font-size:12px;color:#d1c6dc}.field input,.field select{background:#130f1d;border:1px solid #61526b;border-radius:10px;color:#fff;padding:13px 11px;min-height:46px;width:100%;font-size:16px}.quick{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.quick button{background:#382842;color:#fce4ef;border:1px solid #72556e;border-radius:12px;padding:13px 5px;min-height:62px;font-weight:750;font-size:16px}.quick button small{display:block;font-weight:400;font-size:12px;color:#ceb9c9;margin-top:3px}.btn{border:none;background:#dca972;color:#241321;border-radius:10px;padding:12px 16px;min-height:46px;font-weight:750}.btn.secondary{background:#42364f;color:#f5eafa;border:1px solid #6d5c79}.btn.danger{background:#573044;color:#ffe4e8}.btn:disabled{opacity:.5;cursor:not-allowed}.actions{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:13px}.actions button{width:100%}.preview{background:#130f1d;border-radius:11px;padding:13px;margin-top:11px;display:flex;justify-content:space-between;gap:10px;align-items:center}.preview strong{font-size:25px;color:#f8d49a}.tabs{display:flex;gap:8px;margin:15px 0}.tabs button{flex:1;color:#d4c8df;background:#2c2238;border:1px solid #584669;border-radius:10px;padding:12px 5px;font-weight:700}.tabs button[aria-selected=true]{background:#dca972;color:#261728;border-color:#dca972}.entry{padding:12px 0;border-bottom:1px solid #42364b;display:flex;justify-content:space-between;gap:8px;align-items:center}.entry:last-child{border-bottom:0}.entry strong{font-size:17px}.entry .detail{font-size:12px;color:#c1b5cd;margin-top:4px;overflow-wrap:anywhere}.entry .delete{border:1px solid #755166;color:#ffe1ed;background:#4e293d;border-radius:8px;padding:8px 10px;min-height:40px}.paytag{display:inline-block;border:1px solid #5d526b;border-radius:20px;padding:3px 7px;margin-left:4px}.hint{font-size:12px;line-height:1.65;color:#c6b8cc}.notice{padding:11px 12px;border-radius:9px;background:#483847;color:#fff2d4;font-size:13px;margin-top:10px}#toast{position:sticky;bottom:12px;background:#395745;color:#fff;border-radius:10px;padding:12px;margin-top:12px;display:none}.filter{align-items:end}.nothing{padding:22px;text-align:center;color:#c4b9ce}.totalLine{display:flex;justify-content:space-between;padding:7px 0;gap:8px}.totalLine b{font-variant-numeric:tabular-nums}footer{margin-top:30px;font-size:12px;color:#afa2bc;line-height:1.7}@media(min-width:620px){.quick{grid-template-columns:repeat(5,1fr)}.hero{grid-template-columns:repeat(3,1fr)}}
 
 [hidden]{display:none!important}.menuGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.menuBtn{padding:13px 9px;border-radius:12px;min-height:66px;background:#382842;border:1px solid #735b79;color:#fff;text-align:left}.menuBtn b{display:block;font-size:15px;overflow-wrap:anywhere}.menuBtn span{display:block;color:#f5d4a9;margin-top:5px}.lineItem{display:flex;align-items:center;gap:7px;justify-content:space-between;border-bottom:1px solid #4a3b57;padding:9px 0}.lineItem .name{flex:1;min-width:0;overflow-wrap:anywhere}.mini{min-height:38px;padding:7px 12px;border-radius:8px;border:1px solid #78647e;background:#3c304a;color:white}.segment{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}.segment button{border:1px solid #77617e;border-radius:9px;padding:9px 13px;background:#35283e;color:#fff}.segment .active{background:#dca972;color:#251526}.listRow{border-bottom:1px solid #4c3b57;padding:13px 0}.listRow:last-child{border-bottom:0}.listRow b{overflow-wrap:anywhere}.gap{margin-top:10px}.note{line-height:1.6;color:#cbbdd2;font-size:13px}.smallActions{display:flex;gap:7px;flex-wrap:wrap;margin-top:8px}.smallActions .mini{flex:0 0 auto}.category{color:#e7b88a;font-weight:700;margin:15px 0 7px}.wide{width:100%}@media(min-width:620px){.menuGrid{grid-template-columns:repeat(3,1fr)}}
@@ -54,7 +54,7 @@
 .customerHistoryDetail{padding:5px 0;color:#ccbfd4;font-size:12px}
 .customerHistoryDetail b{color:#f6e9f3;white-space:nowrap}
 
-/* v9.6.9 売上研究カレンダー：読み取り専用 */
+/* v9.6.11.1 売上研究カレンダー：日付から編集・追加に対応 */
 .researchHeader{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
 .researchHeader .monthTitle{font-weight:800;font-size:17px}
 .researchNav{display:flex;align-items:center;gap:7px}
@@ -79,14 +79,20 @@
 .researchDetail{background:#171220;border:1px solid #695477;border-radius:11px;padding:12px;margin-top:12px}
 .researchDetail h4{margin:0 0 9px;font-size:15px}
 .researchDetail .totalLine{font-size:13px;border-bottom:1px solid #42354d}
-.researchDetail .note{margin-top:8px}
+ .researchDetail .note{margin-top:8px}
+.researchDayActions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.researchSaleRow{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:11px 0;border-top:1px solid #493c55}
+.researchSaleRow .researchSaleMeta{flex:1;min-width:175px;overflow-wrap:anywhere}
+.researchSaleRow .researchSaleMeta small{display:block;color:#cbbfd0;font-size:12px;margin-top:3px}
+.researchSaleRow button{min-height:44px;min-width:75px}
+
 .researchMiniTable{width:100%;border-collapse:collapse;font-size:12px;margin-top:9px}
 .researchMiniTable th,.researchMiniTable td{padding:7px 3px;border-bottom:1px solid #493c55;text-align:right}
 .researchMiniTable th:first-child,.researchMiniTable td:first-child{text-align:left}
 @media(min-width:520px){.researchSummary{grid-template-columns:repeat(4,minmax(0,1fr))}.researchDays button{min-height:90px}}
 @media(max-width:370px){.researchDays{gap:2px}.researchDays button{min-height:72px}.researchDays .ry-money{font-size:10px}.researchDays .ry-count{font-size:9px}}
 </style></head><body><main class="wrap">
-<header><div class="logo">🍷 スナック ゆあ<small>売上・料金メニュー・常連管理 v9.6.9</small></div><span class="badge">4桁PIN共有・v9.6.9</span></header>
+<header><div class="logo">🍷 スナック ゆあ<small>売上・料金メニュー・常連管理 v9.6.11.1</small></div><span class="badge">4桁PIN共有・v9.6.11.1</span></header>
 <section id="loginBox" class="card"><h2 class="section">🍷 4桁PINで開く</h2><p class="hint">ママもゆめあも同じ4桁のPINで共有できます。メールアドレスは不要です。</p><form id="loginForm"><label class="field">店舗共通PIN<input id="loginPin" type="password" inputmode="numeric" pattern="[0-9]{4}" minlength="4" maxlength="4" autocomplete="off" placeholder="4桁の数字" required></label><button class="btn wide gap" type="submit" id="loginButton">共有データを開く</button></form><p id="loginError" class="formErr" role="alert"></p><p class="hint">初回入力後はこの端末にPINを記憶します。ブラウザの保存データを消した場合は再入力してください。</p></section>
 <section id="appArea" hidden><div class="authInfo"><div id="syncStatus" aria-live="polite">接続中…</div><div class="row"><button type="button" class="btn secondary" id="refreshBtn">⟳ 最新データを取得</button><button type="button" class="btn secondary" id="logoutBtn">この端末のPIN記憶を解除</button></div></div>
 <div class="notice">表示価格は税抜き。商品小計にTAX・サービス料を<strong>合計10%</strong>加算します（端数は切り捨て）。席ごとの未会計注文も共有します。注文追加・削除・会計確定はクラウドに保存されます。</div>
@@ -111,14 +117,14 @@
 <div id="researchDayDetail" class="researchDetail" aria-live="polite"></div>
 <div id="researchInsights" class="gap"></div>
 <p class="hint">売上は確定済み会計の合計。件数は会計件数で、来店人数ではありません。天候・営業日の未登録日は「未記録」と区別し、休業日は売上0円と混同しません。曜日比較は「営業と登録した日」のみを分母にします。</p>
-</section><h3 class="section gap">🌤️ 天候別売上分析</h3><div id="weatherAnalytics" aria-live="polite"></div><p class="hint">天候を登録した「営業日」のみで計算。売上0円の営業日も含めた1日平均です。曜日等の影響は別途考慮が必要です。</p><h3 class="section gap">売上履歴</h3>
+</section><h3 class="section gap">🌤️ 天候別売上分析</h3><div id="weatherAnalytics" aria-live="polite"></div><p class="hint">天候と売上の両方が記録された営業日の平均です。売上未記録日は0円とみなさず集計から除外します。</p><h3 class="section gap">売上履歴</h3>
 <div id="saleEditPanel" class="saleEditPanel" hidden>
- <h3 class="section">✏️ 過去の売上を編集</h3>
- <p class="hint">同じ売上記録を修正します。新しい売上は作成されません。金額は商品を変更したときだけ再計算します。</p>
+ <h3 class="section" id="saleEditTitle">✏️ 過去の売上を編集</h3>
+ <p class="hint" id="saleEditHint">同じ売上記録を修正します。新しい売上は作成されません。金額は商品を変更したときだけ再計算します。</p>
  <div class="row"><label class="field">営業日<input type="date" id="editSaleDate"></label><label class="field">支払方法<select id="editSaleMethod"><option>現金</option><option>カード</option><option>QR・電子決済</option><option>その他</option></select></label></div>
  <div class="row"><label class="field">お客様<select id="editSaleCustomer"></select></label><label class="field">売上カテゴリー<select id="editSaleAttribution"><option>カテゴリーなし</option><option>ママ</option><option>ゆめあ</option></select></label></div>
  <label class="field">メモ<input id="editSaleMemo" maxlength="100" placeholder="任意"></label>
- <h4 class="section gap">商品・数量を修正</h4><div id="editSaleItems"></div>
+ <h4 class="section gap" id="saleEditItemsTitle">商品・数量を修正</h4><div id="editSaleItems"></div>
  <div class="row gap"><label class="field">商品を追加<select id="editSaleMenu"></select></label><button type="button" id="editSaleAdd" class="btn secondary">＋ 商品追加</button></div>
  <div class="row gap"><label class="field">その他の税抜金額<input id="editSaleCustom" type="number" inputmode="numeric" min="1" max="99999999" placeholder="金額を入力"></label><button type="button" id="editSaleAddCustom" class="btn secondary">＋ 追加</button></div>
  <div id="editSaleTotal" class="preview" aria-live="polite"></div>
@@ -254,13 +260,34 @@ function startSaleEdit(id){
  const s=data.sales.find(x=>x.id===id);if(!s)return notice('売上が見つかりません。更新してください');
  saleEdit={id:s.id,original:{date:s.date,amount:s.amount,items:JSON.parse(JSON.stringify(s.items)),method:s.method,attribution:s.attribution,customerId:s.customerId,memo:s.memo},items:s.items.map(x=>({...x})),itemsChanged:false};
  $('saleEditPanel').hidden=false;
+ $('saleEditTitle').textContent='✏️ 過去の売上を編集';
+ $('saleEditHint').textContent='同じ売上記録を修正します。新しい売上は作成されません。金額は商品を変更したときだけ再計算します。';
+ $('saleEditItemsTitle').textContent='商品・数量を修正';
+ $('editSaleSave').textContent='変更を保存';
  $('editSaleDate').value=s.date;$('editSaleMethod').value=s.method;
  $('editSaleAttribution').value=s.attribution;$('editSaleMemo').value=s.memo;
  const cs=$('editSaleCustomer');cs.replaceChildren(new Option('新規（常連登録なし）',''),...data.customers.map(c=>new Option(c.name,c.id)));cs.value=s.customerId;
  const ms=$('editSaleMenu');ms.replaceChildren(new Option('商品を選択',''),...data.menu.map(m=>new Option(`${m.name}（${yen(m.price)}）`,m.id)));
  $('editSaleCustom').value='';renderSaleEdit();$('saleEditPanel').scrollIntoView({behavior:'smooth',block:'start'});
 }
+function startSaleCreate(date){
+ // 既存の売上は変更せず、選んだ営業日の新規会計を別IDで追加する。
+ if(busy)return notice('通信中は登録を開始できません');
+ if(!/^\d{4}-\d{2}-\d{2}$/.test(date)||Number.isNaN(Date.parse(date+'T00:00:00Z')))return notice('日付が正しくありません');
+ saleEdit={isNew:true,id:uuid(),original:null,items:[],itemsChanged:true};
+ $('saleEditPanel').hidden=false;
+ $('saleEditTitle').textContent='＋ '+date+' の売上を新規登録';
+ $('saleEditHint').textContent='過去の未記録日にも登録できます。既存の売上や未会計の席には触れません。商品を選んで金額を計算します。';
+ $('saleEditItemsTitle').textContent='商品・数量を入力';
+ $('editSaleSave').textContent='新しい売上を登録';
+ $('editSaleDate').value=date;$('editSaleMethod').value='現金';
+ $('editSaleAttribution').value='カテゴリーなし';$('editSaleMemo').value='';
+ const cs=$('editSaleCustomer');cs.replaceChildren(new Option('新規（常連登録なし）',''),...data.customers.map(c=>new Option(c.name,c.id)));cs.value='';
+ const ms=$('editSaleMenu');ms.replaceChildren(new Option('商品を選択',''),...data.menu.map(m=>new Option(`${m.name}（${yen(m.price)}）`,m.id)));
+ $('editSaleCustom').value='';renderSaleEdit();$('saleEditPanel').scrollIntoView({behavior:'smooth',block:'start'});
+}
 function closeSaleEdit(){saleEdit=null;$('saleEditPanel').hidden=true;}
+
 function saleEditSum(){return saleEdit.items.reduce((n,x)=>n+x.price,0)}
 function editItemsChange(name,price,delta){
  if(!saleEdit||busy)return;
@@ -277,8 +304,8 @@ function renderSaleEdit(){
   const row=entry('div',undefined,'entryLine');row.append(entry('strong',`${g.name} × ${g.count}  ${yen(g.price*g.count)}`));
   row.append(btn('−',()=>editItemsChange(g.name,g.price,-1)),btn('＋',()=>editItemsChange(g.name,g.price,1)));root.append(row);
  }
- const sub=saleEditSum(),amount=saleEdit.itemsChanged?payableTotal(sub):saleEdit.original.amount;
- $('editSaleTotal').textContent=`税抜小計 ${yen(sub)} ／ TAX・サービス料10% ${yen(Math.floor(sub/10))} ／ 保存する会計額 ${yen(amount)}${saleEdit.itemsChanged?'（100円単位に端数調整）':'（商品を変えていないため元の金額を維持）'}`;
+ const sub=saleEditSum(),amount=(saleEdit.isNew||saleEdit.itemsChanged)?payableTotal(sub):saleEdit.original.amount;
+ $('editSaleTotal').textContent=`税抜小計 ${yen(sub)} ／ TAX・サービス料10% ${yen(Math.floor(sub/10))} ／ 保存する会計額 ${yen(amount)}${saleEdit.isNew?'（新規売上・100円単位に端数調整）':saleEdit.itemsChanged?'（100円単位に端数調整）':'（商品を変えていないため元の金額を維持）'}`;
 }
 async function saveSaleEdit(){
  if(!saleEdit||busy)return;
@@ -287,9 +314,19 @@ async function saveSaleEdit(){
  if(!['現金','カード','QR・電子決済','その他'].includes(method))return notice('支払方法を確認してください');
  if(!['ママ','ゆめあ','カテゴリーなし'].includes(attribution))return notice('売上カテゴリーを確認してください');
  if(customerId&&!data.customers.some(c=>c.id===customerId))return notice('常連さんを選び直してください');
- if(saleEdit.itemsChanged&&!saleEdit.items.length)return notice('商品を1点以上登録してください');
+ if((saleEdit.isNew||saleEdit.itemsChanged)&&!saleEdit.items.length)return notice('商品を1点以上登録してください');
  const edit=saleEdit;
- const payload={business_date:date,method,attribution,customer_id:customerId,memo,items:edit.items.map(i=>({id:i.id||uuid(),name:i.name,price:i.price})),recalculate:edit.itemsChanged,expected:edit.original};
+ const items=edit.items.map(i=>({id:i.id||uuid(),name:i.name,price:i.price}));
+ if(edit.isNew){
+  const amount=payableTotal(saleEditSum());
+  if(!moneyOK(amount))return notice('会計額を確認してください');
+  if(!confirm(`${date}の売上を新規登録しますか？\n会計額：${yen(amount)}\n既存の売上は変更しません。`))return;
+  const payload={id:edit.id,business_date:date,amount,method,attribution,customer_id:customerId,items,memo};
+  const ok=await change(async()=>{await api('insert','sales',payload)},'新しい売上を登録しました');
+  if(ok)closeSaleEdit();
+  return;
+ }
+ const payload={business_date:date,method,attribution,customer_id:customerId,memo,items,recalculate:edit.itemsChanged,expected:edit.original};
  if(!confirm(`${date}の売上を修正して保存しますか？\n会計額：${yen(edit.itemsChanged?payableTotal(saleEditSum()):edit.original.amount)}`))return;
  const ok=await change(async()=>{const r=await client.rpc('yua_sales_edit_api',{p_pin:pin,p_sale_id:edit.id,p_payload:payload});if(r.error)throw r.error;},'売上履歴を修正しました');
  if(ok)closeSaleEdit();
@@ -310,14 +347,15 @@ function renderWeatherAnalytics(){const host=$('weatherAnalytics');host.replaceC
  const p=$('period').value,d=today();return p==='all'||p==='today'&&x.business_date===d||p==='month'&&x.business_date.startsWith(d.slice(0,7))||p==='date'&&x.business_date===$('filterDate').value;
 });
 if(!days.length){host.append(entry('p','この期間には天候登録済みの営業日がありません。','hint'));return;}
-const tbl=entry('table',undefined,'weatherTable');const head=entry('thead');const tr=entry('tr');for(const k of ['天候','営業日数','売上合計','1日平均'])tr.append(entry('th',k));head.append(tr);tbl.append(head);const body=entry('tbody');
+const tbl=entry('table',undefined,'weatherTable');const head=entry('thead');const tr=entry('tr');for(const k of ['天候','営業登録日','売上記録日','売上合計','記録日平均'])tr.append(entry('th',k));head.append(tr);tbl.append(head);const body=entry('tbody');
 for(const w of WEATHER_TYPES){const dates=new Set(days.filter(x=>x.weather===w).map(x=>x.business_date));if(!dates.size)continue;
-const total=data.sales.filter(x=>dates.has(x.date)).reduce((a,x)=>a+x.amount,0);
-const row=entry('tr');[`${WEATHER_ICON[w]} ${w}`,`${dates.size}日`,yen(total),yen(Math.round(total/dates.size))].forEach(t=>row.append(entry('td',t)));body.append(row);
+const recorded=new Set(data.sales.filter(x=>dates.has(x.date)).map(x=>x.date));
+const total=data.sales.filter(x=>recorded.has(x.date)).reduce((a,x)=>a+x.amount,0);
+const row=entry('tr');[`${WEATHER_ICON[w]} ${w}`,`${dates.size}日`,`${recorded.size}日`,recorded.size?yen(total):'—',recorded.size?yen(Math.round(total/recorded.size)):'—'].forEach(t=>row.append(entry('td',t)));body.append(row);
 }tbl.append(body);host.append(tbl);
 }
 
-// 売上研究カレンダー。保存処理を持たず、既存のクラウドデータから表示するだけ。
+// 売上研究カレンダー。表示は共有データを使い、操作時のみ既存の保存APIを呼び出す。
 let researchYear=Number(today().slice(0,4)),researchMonth=Number(today().slice(5,7));
 let researchSelected=today();
 const researchKey=(y,m,d)=>`${y}-${String(m).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
@@ -331,8 +369,23 @@ function renderResearchDay(date){
  const target=$('researchDayDetail');target.replaceChildren();const sales=researchDayEntries(date),day=researchDayRow(date);const total=sales.reduce((a,x)=>a+x.amount,0);
  target.append(entry('h4',`${date.slice(5).replace('-','月')}日 の詳細`));
  researchDetailLine(target,'天候・営業状況',day?`${researchWeatherIcon[day.weather]||''} ${day.weather||'未入力'} ／ ${day.business_status||'未登録'}`:'未登録');
- researchDetailLine(target,'確定売上',sales.length?yen(total):(day?.business_status==='休業'?'休業':day?.business_status==='営業'?'¥0（記録なし）':'未記録'));
+ researchDetailLine(target,'確定売上',sales.length?yen(total):(day?.business_status==='休業'?'休業':day?.business_status==='営業'?'売上未記録':'未記録'));
  researchDetailLine(target,'会計件数',sales.length+' 件');
+ // カレンダーから既存の入力画面へ移動。天候編集は従来の保存処理を再利用する。
+ const quickActions=entry('div',undefined,'researchDayActions');
+ const weatherLabel=entry('label','天候 ');const weatherSelect=entry('select');weatherSelect.append(new Option('天候を選択',''));
+ for(const w of ['晴れ','曇り','雨','荒天','雪'])weatherSelect.append(new Option(w,w));
+ weatherSelect.value=day?.weather||'';weatherLabel.append(weatherSelect);
+ const statusLabel=entry('label','営業状況 ');const statusSelect=entry('select');
+ for(const v of ['営業','休業'])statusSelect.append(new Option(v,v));
+ statusSelect.value=day?.business_status||'営業';statusLabel.append(statusSelect);
+ quickActions.append(weatherLabel,statusLabel,btn('天候・営業状況を保存',async()=>{
+  if(!WEATHER_TYPES.includes(weatherSelect.value))return notice('天候を選択してください');
+  await change(async()=>{const r=await weatherApi('save',date,weatherSelect.value,statusSelect.value);return r},'営業日の記録を更新しました');
+ },'btn secondary'));
+ quickActions.append(btn('＋ この日に売上を追加',()=>startSaleCreate(date),'btn'));
+ target.append(quickActions);
+
  if(sales.length){
   researchDetailLine(target,'1会計あたり',yen(Math.round(total/sales.length)));
   for(const cat of ['ママ','ゆめあ','カテゴリーなし'])researchDetailLine(target,cat,yen(sales.filter(x=>x.attribution===cat).reduce((a,x)=>a+x.amount,0)));
@@ -342,15 +395,26 @@ function renderResearchDay(date){
   }
   const h=entry('div',undefined,'note');h.append(entry('b','お客様別：'));h.append(document.createTextNode([...customers].map(([name,amount])=>`${name} ${yen(amount)}`).join(' ／ ')));target.append(h);
   if(products.size){const h2=entry('div',undefined,'note');h2.append(entry('b','商品内訳：'));h2.append(document.createTextNode([...products.values()].map(p=>`${p.name} ×${p.count}`).join(' ／ ')));target.append(h2)}
+  // 日付を選んだだけでは更新しない。該当する確定会計を個別に選び、既存の履歴編集パネルへ引き渡す。
+  target.append(entry('h4','この日の会計を編集'));
+  for(const sale of [...sales].sort((a,b)=>a.id.localeCompare(b.id))){
+   const customer=data.customers.find(c=>c.id===sale.customerId)?.name||'新規';
+   const row=entry('div',undefined,'researchSaleRow');const meta=entry('div',undefined,'researchSaleMeta');
+   meta.append(entry('strong',`${customer} ／ ${yen(sale.amount)}`));
+   const names=(sale.items||[]).map(i=>cleanProductName(i.name)).slice(0,6).join('、');
+   meta.append(entry('small',`${sale.method} ／ ${sale.attribution}${names?' ／ '+names:''}`));
+   row.append(meta,btn('✏️ 編集',()=>startSaleEdit(sale.id),'btn secondary'));target.append(row);
+  }
+
  }else target.append(entry('p',day?.business_status==='休業'?'休業日として登録済みです。':'この日の会計記録はありません。','hint'));
 }
 function renderResearchInsights(monthDates,byDate){
  const host=$('researchInsights');host.replaceChildren();host.append(entry('h4','曜日別の研究（この月）','section'));
  const weekdays=['日','月','火','水','木','金','土'];
- const rows=weekdays.map((name,weekday)=>({name,days:0,total:0,transactions:0}));
- for(const date of monthDates){const day=researchDayRow(date);if(day?.business_status!=='営業')continue;const p=date.split('-').map(Number);const i=new Date(Date.UTC(p[0],p[1]-1,p[2])).getUTCDay();const item=rows[i];item.days++;const s=byDate.get(date)||{total:0,count:0};item.total+=s.total;item.transactions+=s.count}
- const tbl=entry('table',undefined,'researchMiniTable');const thead=entry('thead'),head=entry('tr');for(const n of ['曜日','営業登録日','1日平均売上','会計件数'])head.append(entry('th',n));thead.append(head);tbl.append(thead);const tbody=entry('tbody');
- for(const r of rows){const tr=entry('tr');for(const v of [r.name+'曜',r.days+'日',r.days?yen(Math.round(r.total/r.days)):'—',r.transactions+'件'])tr.append(entry('td',v));tbody.append(tr)}tbl.append(tbody);host.append(tbl);
+ const rows=weekdays.map((name,weekday)=>({name,days:0,recorded:0,total:0,transactions:0}));
+ for(const date of monthDates){const day=researchDayRow(date);if(day?.business_status!=='営業')continue;const p=date.split('-').map(Number);const i=new Date(Date.UTC(p[0],p[1]-1,p[2])).getUTCDay();const item=rows[i];item.days++;if(!byDate.has(date))continue;item.recorded++;const s=byDate.get(date);item.total+=s.total;item.transactions+=s.count}
+ const tbl=entry('table',undefined,'researchMiniTable');const thead=entry('thead'),head=entry('tr');for(const n of ['曜日','営業登録日','売上記録日','記録日平均売上','会計件数'])head.append(entry('th',n));thead.append(head);tbl.append(thead);const tbody=entry('tbody');
+ for(const r of rows){const tr=entry('tr');for(const v of [r.name+'曜',r.days+'日',r.recorded+'日',r.recorded?yen(Math.round(r.total/r.recorded)):'—',r.transactions+'件'])tr.append(entry('td',v));tbody.append(tr)}tbl.append(tbody);host.append(tbl);
  const monthSales=data.sales.filter(x=>x.date.startsWith(researchKey(researchYear,researchMonth,1).slice(0,7)));
  const products=new Map();for(const sale of monthSales){for(const item of sale.items||[]){const key=cleanProductName(item.name);products.set(key,(products.get(key)||0)+1)}}
  const top=[...products.entries()].sort((a,b)=>b[1]-a[1]).slice(0,5);
@@ -363,8 +427,8 @@ function renderResearchCalendar(){
  const first=new Date(Date.UTC(researchYear,researchMonth-1,1)).getUTCDay();const last=new Date(Date.UTC(researchYear,researchMonth,0)).getUTCDate();
  const dates=Array.from({length:last},(_,i)=>researchKey(researchYear,researchMonth,i+1));const byDate=new Map();
  for(const s of data.sales){if(!s.date.startsWith(researchKey(researchYear,researchMonth,1).slice(0,7)))continue;const cur=byDate.get(s.date)||{total:0,count:0};cur.total+=s.amount;cur.count++;byDate.set(s.date,cur)}
- const registered=dates.filter(date=>researchDayRow(date)?.business_status==='営業');const closed=dates.filter(date=>researchDayRow(date)?.business_status==='休業');const monthTotal=dates.reduce((sum,date)=>sum+(byDate.get(date)?.total||0),0);const count=dates.reduce((sum,date)=>sum+(byDate.get(date)?.count||0),0);
- for(const [label,value] of [['月間売上',yen(monthTotal)],['会計件数',count+'件'],['営業登録日数',registered.length+'日'],['登録営業日平均',registered.length?yen(Math.round(registered.reduce((sum,date)=>sum+(byDate.get(date)?.total||0),0)/registered.length)):'—']]){
+ const registered=dates.filter(date=>researchDayRow(date)?.business_status==='営業');const recorded=registered.filter(date=>byDate.has(date));const missing=registered.length-recorded.length;const monthTotal=dates.reduce((sum,date)=>sum+(byDate.get(date)?.total||0),0);const count=dates.reduce((sum,date)=>sum+(byDate.get(date)?.count||0),0);
+ for(const [label,value] of [['月間売上',yen(monthTotal)],['会計件数',count+'件'],['営業登録日数',registered.length+'日'],['売上未記録の営業日',missing+'日'],['売上記録日平均',recorded.length?yen(Math.round(recorded.reduce((sum,date)=>sum+byDate.get(date).total,0)/recorded.length)):'—']]){
   const metric=entry('div',undefined,'researchMetric');metric.append(entry('span',label),entry('strong',value));summary.append(metric)
  }
  for(let i=0;i<first;i++){const empty=entry('div',undefined,'ry-empty');empty.setAttribute('aria-hidden','true');grid.append(empty)}
@@ -372,7 +436,7 @@ function renderResearchCalendar(){
  for(const date of dates){const day=researchDayRow(date),item=byDate.get(date),total=item?.total||0;
   const button=entry('button',undefined,'');button.type='button';button.setAttribute('aria-pressed',String(researchSelected===date));
   if(day?.business_status==='休業')button.classList.add('ry-closed');else if(total>=median&&total>0)button.classList.add('ry-high');else if(!day&&!item)button.classList.add('ry-unrecorded');
-  const d=Number(date.slice(-2));button.append(entry('span',String(d),'ry-num'),entry('span',day?.business_status==='休業'?'休':researchWeatherIcon[day?.weather]||'·','ry-weather'),entry('span',day?.business_status==='休業'&&!item?'休業':item?researchShortYen(total)+'円':day?.business_status==='営業'?'0円':'未記録','ry-money'));
+  const d=Number(date.slice(-2));button.append(entry('span',String(d),'ry-num'),entry('span',day?.business_status==='休業'?'休':researchWeatherIcon[day?.weather]||'·','ry-weather'),entry('span',day?.business_status==='休業'&&!item?'休業':item?researchShortYen(total)+'円':'未記録','ry-money'));
   button.append(entry('span',item?item.count+'件':'','ry-count'));
   button.setAttribute('aria-label',`${date}、${day?.weather||'天候未登録'}、${day?.business_status||'営業状況未登録'}、${item?yen(total)+'、'+item.count+'会計':'会計記録なし'}`);
   button.addEventListener('click',()=>{researchSelected=date;for(const b of grid.querySelectorAll('button'))b.setAttribute('aria-pressed',String(b===button));renderResearchDay(date)});
