@@ -1,4 +1,4 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#171124"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="ゆあ大作戦"><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="./icon-192.png"><title>スナックゆあ 売上管理 v9.6.21</title><style>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#171124"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="ゆあ大作戦"><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" href="./icon-192.png"><title>スナックゆあ 売上管理 v9.6.22</title><style>
 :root{font-family:-apple-system,BlinkMacSystemFont,'Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif;color:#f6f2fa;background:#120e1a}*{box-sizing:border-box}body{margin:0}button,input,select{font:inherit}button{cursor:pointer;touch-action:manipulation}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #f4ba64;outline-offset:2px}.wrap{max-width:740px;margin:auto;padding:22px 16px 70px}header{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:24px}.logo{font-size:25px;font-weight:800;letter-spacing:.04em}.logo small{font-size:12px;font-weight:500;color:#cbbbd9;display:block;letter-spacing:0;margin-top:4px}.badge{color:#f9d79d;background:#3b2d36;padding:7px 10px;border:1px solid #7f625e;border-radius:50px;font-size:12px;white-space:nowrap}.card{background:#21192e;border:1px solid #493952;border-radius:17px;padding:17px;margin:14px 0}.section{font-size:16px;font-weight:700;margin:0 0 12px}.muted{color:#b9aec7;font-size:13px}.hero{display:grid;grid-template-columns:1fr 1fr;gap:10px}.stat{background:#2c223b;padding:15px;border-radius:13px}.stat strong{display:block;font-size:26px;margin-top:9px;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}.stat span{font-size:12px;color:#cbbfd5}.stat.primary{background:linear-gradient(145deg,#694a68,#473051)}.stat.primary strong{font-size:28px}.row{display:flex;gap:9px;flex-wrap:wrap;align-items:center}.row>*{min-width:0}.field{display:flex;flex-direction:column;gap:6px;flex:1 1 130px;font-size:12px;color:#d1c6dc}.field input,.field select{background:#130f1d;border:1px solid #61526b;border-radius:10px;color:#fff;padding:13px 11px;min-height:46px;width:100%;font-size:16px}.quick{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.quick button{background:#382842;color:#fce4ef;border:1px solid #72556e;border-radius:12px;padding:13px 5px;min-height:62px;font-weight:750;font-size:16px}.quick button small{display:block;font-weight:400;font-size:12px;color:#ceb9c9;margin-top:3px}.btn{border:none;background:#dca972;color:#241321;border-radius:10px;padding:12px 16px;min-height:46px;font-weight:750}.btn.secondary{background:#42364f;color:#f5eafa;border:1px solid #6d5c79}.btn.danger{background:#573044;color:#ffe4e8}.btn:disabled{opacity:.5;cursor:not-allowed}.actions{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:13px}.actions button{width:100%}.preview{background:#130f1d;border-radius:11px;padding:13px;margin-top:11px;display:flex;justify-content:space-between;gap:10px;align-items:center}.preview strong{font-size:25px;color:#f8d49a}.tabs{display:flex;gap:8px;margin:15px 0}.tabs button{flex:1;color:#d4c8df;background:#2c2238;border:1px solid #584669;border-radius:10px;padding:12px 5px;font-weight:700}.tabs button[aria-selected=true]{background:#dca972;color:#261728;border-color:#dca972}.entry{padding:12px 0;border-bottom:1px solid #42364b;display:flex;justify-content:space-between;gap:8px;align-items:center}.entry:last-child{border-bottom:0}.entry strong{font-size:17px}.entry .detail{font-size:12px;color:#c1b5cd;margin-top:4px;overflow-wrap:anywhere}.entry .delete{border:1px solid #755166;color:#ffe1ed;background:#4e293d;border-radius:8px;padding:8px 10px;min-height:40px}.paytag{display:inline-block;border:1px solid #5d526b;border-radius:20px;padding:3px 7px;margin-left:4px}.hint{font-size:12px;line-height:1.65;color:#c6b8cc}.notice{padding:11px 12px;border-radius:9px;background:#483847;color:#fff2d4;font-size:13px;margin-top:10px}#toast{position:sticky;bottom:12px;background:#395745;color:#fff;border-radius:10px;padding:12px;margin-top:12px;display:none}.filter{align-items:end}.nothing{padding:22px;text-align:center;color:#c4b9ce}.totalLine{display:flex;justify-content:space-between;padding:7px 0;gap:8px}.totalLine b{font-variant-numeric:tabular-nums}footer{margin-top:30px;font-size:12px;color:#afa2bc;line-height:1.7}@media(min-width:620px){.quick{grid-template-columns:repeat(5,1fr)}.hero{grid-template-columns:repeat(3,1fr)}}
 
 [hidden]{display:none!important}.menuGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.menuBtn{padding:13px 9px;border-radius:12px;min-height:66px;background:#382842;border:1px solid #735b79;color:#fff;text-align:left}.menuBtn b{display:block;font-size:15px;overflow-wrap:anywhere}.menuBtn span{display:block;color:#f5d4a9;margin-top:5px}.lineItem{display:flex;align-items:center;gap:7px;justify-content:space-between;border-bottom:1px solid #4a3b57;padding:9px 0}.lineItem .name{flex:1;min-width:0;overflow-wrap:anywhere}.mini{min-height:38px;padding:7px 12px;border-radius:8px;border:1px solid #78647e;background:#3c304a;color:white}.segment{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}.segment button{border:1px solid #77617e;border-radius:9px;padding:9px 13px;background:#35283e;color:#fff}.segment .active{background:#dca972;color:#251526}.listRow{border-bottom:1px solid #4c3b57;padding:13px 0}.listRow:last-child{border-bottom:0}.listRow b{overflow-wrap:anywhere}.gap{margin-top:10px}.note{line-height:1.6;color:#cbbdd2;font-size:13px}.smallActions{display:flex;gap:7px;flex-wrap:wrap;margin-top:8px}.smallActions .mini{flex:0 0 auto}.category{color:#e7b88a;font-weight:700;margin:15px 0 7px}.wide{width:100%}@media(min-width:620px){.menuGrid{grid-template-columns:repeat(3,1fr)}}
@@ -96,6 +96,16 @@
 @media(min-width:520px){.researchSummary{grid-template-columns:repeat(4,minmax(0,1fr))}.researchDays button{min-height:90px}}
 @media(max-width:370px){.researchDays{gap:2px}.researchDays button{min-height:72px}.researchDays .ry-money{font-size:10px}.researchDays .ry-count{font-size:9px}}
 
+/* v9.6.22 営業区分別売上・カレンダー */
+.researchDays .ry-business{font-size:10px;line-height:1.1;min-height:11px;font-weight:800;color:#f5d8ad;overflow-wrap:anywhere}
+.researchDays button.ry-mama .ry-business{color:#ffd575}
+.researchDays button.ry-yumea .ry-business{color:#e7d3ff}
+.researchDays button.ry-unknown .ry-business{color:#f4c0c0}
+.businessGroupReport{overflow-x:auto;margin:12px 0 14px}
+.businessGroupReport table{width:100%;border-collapse:collapse;font-size:12px;min-width:480px}
+.businessGroupReport th,.businessGroupReport td{padding:10px 7px;text-align:right;border-bottom:1px solid #51405d;white-space:nowrap}
+.businessGroupReport th:first-child,.businessGroupReport td:first-child{text-align:left}
+.businessGroupReport th{color:#f1d3aa}
 /* v9.6.16：会計画面のお客様検索 */
 .saleCustomerPicker{flex:1 1 230px;min-width:0}
 .saleCustomerPicker label{font-size:12px;color:#d1c6dc}
@@ -136,23 +146,23 @@ header{flex-wrap:wrap}
 :root:fullscreen{background:#120e1a;overflow:auto}
 
 </style></head><body><main class="wrap">
-<header><div class="logo">🍷 スナック ゆあ<small>売上・料金メニュー・常連管理 v9.6.21</small></div><div class="fullscreenToolbar"><span class="badge">4桁PIN共有・v9.6.21</span><button id="fullscreenBtn" class="btn secondary fullscreenBtn" type="button" aria-pressed="false">⛶ 全画面表示</button><p id="fullscreenStatus" class="fullscreenStatus" role="status" aria-live="polite"></p></div></header>
+<header><div class="logo">🍷 スナック ゆあ<small>売上・料金メニュー・常連管理 v9.6.22</small></div><div class="fullscreenToolbar"><span class="badge">4桁PIN共有・v9.6.22</span><button id="fullscreenBtn" class="btn secondary fullscreenBtn" type="button" aria-pressed="false">⛶ 全画面表示</button><p id="fullscreenStatus" class="fullscreenStatus" role="status" aria-live="polite"></p></div></header>
 <section id="loginBox" class="card"><h2 class="section">🍷 4桁PINで開く</h2><p class="hint">ママもゆめあも同じ4桁のPINで共有できます。メールアドレスは不要です。</p><form id="loginForm"><label class="field">店舗共通PIN<input id="loginPin" type="password" inputmode="numeric" pattern="[0-9]{4}" minlength="4" maxlength="4" autocomplete="off" placeholder="4桁の数字" required></label><button class="btn wide gap" type="submit" id="loginButton">共有データを開く</button></form><p id="loginError" class="formErr" role="alert"></p><p class="hint">初回入力後はこの端末にPINを記憶します。ブラウザの保存データを消した場合は再入力してください。</p></section>
 <section id="appArea" hidden><div class="authInfo"><div id="syncStatus" aria-live="polite">接続中…</div><div class="row"><button type="button" class="btn secondary" id="refreshBtn">⟳ 最新データを取得</button><button type="button" class="btn secondary" id="logoutBtn">この端末のPIN記憶を解除</button></div></div>
 <div class="notice">表示価格は税抜き。商品小計にTAX・サービス料を<strong>合計10%</strong>加算します（1円未満切り捨て）。<strong>カード決済の場合だけ、加算後の金額にさらにカード手数料10%を加え、1円単位で計算します。</strong> それ以外は100円単位に端数調整します。席ごとの未会計注文も共有します。注文追加・削除・会計確定はクラウドに保存されます。</div>
 <section class="hero"><div class="stat primary"><span>本日の売上</span><strong id="todayTotal">¥0</strong></div><div class="stat"><span>本日の会計件数</span><strong id="todayCount">0件</strong></div><div class="stat"><span>今月の売上</span><strong id="monthTotal">¥0</strong></div></section>
 <nav class="tabs" aria-label="管理画面切替"><button id="tabSale" aria-selected="true">売上登録</button><button id="tabCustomer" aria-selected="false">常連さん</button><button id="tabMenu" aria-selected="false">料金表</button><button id="tabReport" aria-selected="false">履歴・集計</button></nav>
-<section id="panelSale"><div class="card"><h2 class="section">🪑 会計する席を選択</h2><div class="seatPicker" id="seatPicker" role="group" aria-label="会計する席"></div><div class="seatBadge" id="seatCurrent">1席目の会計を編集中</div><p class="hint">席を切り替えても注文とお客様情報は保持されます。未会計の内容も2台で共有されます。商品追加はクラウドに保存し、もう一台では「最新データを取得」で確認できます。</p></div><div class="card"><h2 class="section">① お客様・営業日</h2><div class="row"><div class="field saleCustomerPicker"><label for="saleOwnerFilter">お客様の担当で絞り込む</label><select id="saleOwnerFilter"><option value="all">すべてのお客様</option><option value="ママ">💛 ママのお客様</option><option value="ゆめあ">★ ゆめあのお客様</option><option value="店">🏠 店のお客様</option></select><label for="saleCustomerSearch">名前でさらに検索（任意）</label><input id="saleCustomerSearch" type="search" placeholder="名前・ニックネームを入力" autocomplete="off" aria-controls="saleCustomerList" maxlength="50"><div class="saleCustomerCurrent" id="saleCustomerCurrent" aria-live="polite">選択中：新規のお客様</div><span id="saleCustomerMatches" class="customerMatchHint" role="status" aria-live="polite"></span><label for="saleCustomer">候補から選択</label><select id="saleCustomer" aria-describedby="saleCustomerMatches"><option value="">新規（常連登録なし）</option></select><div id="saleCustomerHelp" class="saleCustomerHelp" role="status" aria-live="polite"></div><div class="saleCustomerList" id="saleCustomerList" role="group" aria-label="絞り込んだ常連さんの一覧"></div></div><label class="field">営業日<input type="date" id="saleDate"></label><label class="field">売上カテゴリー<select id="saleAttribution"><option value="カテゴリーなし">カテゴリーなし</option><option>ママ</option><option>ゆめあ</option></select></label></div></div>
+<section id="panelSale"><div class="card"><h2 class="section">🪑 会計する席を選択</h2><div class="seatPicker" id="seatPicker" role="group" aria-label="会計する席"></div><div class="seatBadge" id="seatCurrent">1席目の会計を編集中</div><p class="hint">席を切り替えても注文とお客様情報は保持されます。未会計の内容も2台で共有されます。商品追加はクラウドに保存し、もう一台では「最新データを取得」で確認できます。</p></div><div class="card"><h2 class="section">① お客様・営業日</h2><div class="row"><div class="field saleCustomerPicker"><label for="saleOwnerFilter">お客様の担当で絞り込む</label><select id="saleOwnerFilter"><option value="all">すべてのお客様</option><option value="ママ">💛 ママのお客様</option><option value="ゆめあ">★ ゆめあのお客様</option><option value="店">🏠 店のお客様</option></select><label for="saleCustomerSearch">名前でさらに検索（任意）</label><input id="saleCustomerSearch" type="search" placeholder="名前・ニックネームを入力" autocomplete="off" aria-controls="saleCustomerList" maxlength="50"><div class="saleCustomerCurrent" id="saleCustomerCurrent" aria-live="polite">選択中：新規のお客様</div><span id="saleCustomerMatches" class="customerMatchHint" role="status" aria-live="polite"></span><label for="saleCustomer">候補から選択</label><select id="saleCustomer" aria-describedby="saleCustomerMatches"><option value="">新規（常連登録なし）</option></select><div id="saleCustomerHelp" class="saleCustomerHelp" role="status" aria-live="polite"></div><div class="saleCustomerList" id="saleCustomerList" role="group" aria-label="絞り込んだ常連さんの一覧"></div></div><label class="field">営業日<input type="date" id="saleDate"></label><label class="field">会計時の売上カテゴリー（参考・営業日売上の帰属とは別）<select id="saleAttribution"><option value="カテゴリーなし">カテゴリーなし</option><option>ママ</option><option>ゆめあ</option></select></label></div></div>
 <div class="card"><h2 class="section">🌤️ その日の天候を記録</h2>
 <p class="hint">上の「営業日」で指定した日付の天候を、1日に1回だけ登録します。登録すると両方のiPhoneで共有されます。</p>
 <div class="weatherChoices" id="weatherChoices" role="group" aria-label="天候"><label><input type="radio" name="weather" value="晴れ">☀️ 晴れ</label><label><input type="radio" name="weather" value="曇り">☁️ 曇り</label><label><input type="radio" name="weather" value="雨">🌧️ 雨</label><label><input type="radio" name="weather" value="荒天">⛈️ 荒天</label><label><input type="radio" name="weather" value="雪">❄️ 雪</label></div>
-<div class="row gap"><label class="field">営業状況<select id="openStatus"><option value="営業">営業</option><option value="休業">休業</option></select></label><button class="btn" id="saveWeather" type="button">この日の天候を保存</button></div>
-<p class="weatherSummary" id="weatherCurrent">この日の天候は未登録です。</p><p class="hint">毎週日曜は定休日（未保存の自動表示）です。特別営業・臨時休業や天候は変更可能です。営業状況を保存する際は天候も選んでください。</p></div>
+<div class="row gap"><label class="field">営業区分<select id="openStatus"><option value="営業">🏠 通常営業日</option><option value="ママ営業">💛 ママ営業日</option><option value="ゆめあ営業">★ ゆめあ営業日</option><option value="休業">休業日</option></select></label><button class="btn" id="saveWeather" type="button">営業区分・天候を保存</button></div>
+<p class="weatherSummary" id="weatherCurrent">この日の天候は未登録です。</p><p class="hint">💛ママ営業日なら、★ゆめあのお客様の会計も全額ママ営業日の売上です。★ゆめあ営業日も同様。お客様の所属と会計時の「売上カテゴリー」は変わりません。毎週日曜は原則定休日。天候が未登録でも営業区分だけ保存できます。</p></div>
 <div class="card"><h2 class="section">② 料金表から商品を選択</h2><div id="menuButtons"></div><div class="row gap"><label class="field">その他の金額（税抜円）<input type="number" inputmode="numeric" id="customAmount" min="1" placeholder="例：3500"></label><button type="button" id="addCustom" class="btn secondary">＋追加</button></div><div class="card" style="background:#130f1d"><h3 class="section">選択商品・会計明細</h3><p class="hint">同じ商品は数量でまとめて表示します。「－」で1点ずつ取り消せます。</p><div id="cart" aria-live="polite"></div><div class="totalLine subtotalDivider"><span>商品小計（税抜）</span><b id="subtotal">¥0</b></div><div class="totalLine"><span>TAX・サービス料10%</span><b id="serviceAmount">¥0</b></div><div class="totalLine"><span id="roundAdjustmentLabel">TAX・サービス料加算後の端数調整（100円単位）</span><b id="roundAdjustment">¥0</b></div><div class="totalLine" id="cardFeeLine" hidden><span>カード手数料10%（端数調整後の金額に加算）</span><b id="cardFeeAmount">¥0</b></div><div class="totalLine" style="font-size:20px"><strong>お会計合計</strong><strong id="draftTotal">¥0</strong></div></div><div class="smallActions"><button type="button" class="btn secondary" id="undo">1件戻す</button><button type="button" class="btn danger" id="clearDraft">全クリア</button></div></div>
 <div class="card"><h2 class="section">③ 売上として保存</h2><div class="row"><label class="field">支払方法<select id="payMethod"><option>現金</option><option>カード</option><option>QR・電子決済</option><option>その他</option></select></label><label class="field">メモ<input id="memo" maxlength="100" placeholder="任意"></label></div><button type="button" class="btn wide gap" id="saveSale">売上をクラウドに保存</button></div></section>
 <section id="panelCustomer" hidden><div class="card"><h2 class="section">常連さん登録・編集</h2><div class="row"><label class="field">名前・ニックネーム<input id="customerName" maxlength="50"></label><label class="field">メモ<input id="customerNote" maxlength="150"></label><label class="field">担当のお客様<select id="customerOwner"><option value="店">🏠 店</option><option value="ママ">💛 ママ</option><option value="ゆめあ">★ ゆめあ</option></select></label></div><div class="row gap"><button type="button" class="btn" id="saveCustomer">常連さんを追加</button><button type="button" class="btn secondary" id="cancelCustomer">編集をやめる</button></div><p class="hint">顧客の個人情報は必要最小限にしてな。</p></div><div class="card"><p class="hint">既存の常連さんも各行の「担当を変更」で振り分けできます。💛ママ／★ゆめあ／🏠店は常連さんの所属で、会計時の売上カテゴリーとは別です。未分類だったお客様は「店」に表示します。所属は2台で共有されます。</p><div class="row"><label class="field">名前で検索<input id="customerSearch" placeholder="常連さんを検索"></label><label class="field">担当で絞り込み<select id="customerOwnerFilter"><option value="all">全員</option><option value="ママ">💛 ママ</option><option value="ゆめあ">★ ゆめあ</option><option value="店">🏠 店</option></select></label></div><div id="customerList"></div></div></section>
 <section id="panelMenu" hidden><div class="card"><h2 class="section">料金表の編集</h2><div class="row"><label class="field">商品名<input id="menuName" maxlength="45"></label><label class="field">カテゴリー<select id="menuCategory" aria-label="商品カテゴリー"></select></label><label class="field">税抜料金<input type="number" id="menuPrice" min="1"></label></div><div class="row gap"><button type="button" class="btn" id="saveMenu">商品を追加</button><button type="button" class="btn secondary" id="cancelMenu">編集をやめる</button></div><button type="button" class="btn secondary gap" id="seedMenu" hidden>写真の初期料金表を登録</button><p class="hint">初期メニューには読み取りに不確かな価格もあるため、実運用前に照合してください。初期登録はクラウドの料金表が空の場合のみ表示します。</p></div><div class="card"><div id="menuList"></div></div></section>
-<section id="panelReport" hidden><div class="card"><h2 class="section">売上集計</h2><div class="row"><label class="field">期間<select id="period"><option value="today">今日</option><option value="month">今月</option><option value="all">全期間</option><option value="date">日付指定</option></select></label><label class="field" id="filterDateWrap" hidden>営業日<input type="date" id="filterDate"></label><label class="field">売上カテゴリー<select id="attributionFilter"><option value="all">すべて</option><option>ママ</option><option>ゆめあ</option><option>カテゴリーなし</option></select></label></div><div id="report"></div><section aria-label="売上研究カレンダー" id="researchCalendarSection" class="gap">
+<section id="panelReport" hidden><div class="card"><h2 class="section">売上集計</h2><div class="row"><label class="field">期間<select id="period"><option value="today">今日</option><option value="month">今月</option><option value="all">全期間</option><option value="date">日付指定</option></select></label><label class="field" id="filterDateWrap" hidden>営業日<input type="date" id="filterDate"></label><label class="field">会計時カテゴリーで履歴を絞り込み<select id="attributionFilter"><option value="all">すべて</option><option>ママ</option><option>ゆめあ</option><option>カテゴリーなし</option></select></label></div><div id="report"></div><h3 class="section gap">🍷 営業日区分別の売上</h3><div id="businessTypeReport" class="businessGroupReport" aria-live="polite"></div><p class="hint">売上はその日の営業区分に100％帰属します。「区分登録日」は保存済み日付、「売上記録日」は実際に会計がある日です。平均は売上記録日だけで計算。お客様の所属・会計時の売上カテゴリーには左右されません。営業区分を登録していない過去の売上は「区分未設定」とし、勝手にママ・ゆめあ・通常営業へ振り分けません。休業日に売上がある場合は確認対象として表示します。</p><section aria-label="売上研究カレンダー" id="researchCalendarSection" class="gap">
 <h3 class="section">📅 売上研究カレンダー</h3><p class="hint">毎週日曜は自動的に「定休日」と表示します。日曜の特別営業や平日の臨時休業は日付を押して変更できます。過去の売上・天候データは自動変更しません。</p>
 <div class="researchHeader"><div class="researchNav"><button type="button" id="researchPrev" aria-label="前の月">‹</button><span id="researchMonth" class="monthTitle"></span><button type="button" id="researchNext" aria-label="次の月">›</button></div><button type="button" id="researchToday" class="btn secondary">今月へ</button></div>
 <div class="researchSummary" id="researchSummary" aria-live="polite"></div>
@@ -160,7 +170,7 @@ header{flex-wrap:wrap}
 <div class="researchDays" id="researchDays" aria-label="営業日と売上を選択"></div>
 <div id="researchDayDetail" class="researchDetail" aria-live="polite"></div>
 <div id="researchInsights" class="gap"></div>
-<p class="hint">売上は確定済み会計の合計。件数は会計件数で、来店人数ではありません。毎週日曜は定休日として表示し、明示的な営業・休業登録または売上実績がある日を優先します。未記録日を売上0円とはみなしません。曜日別平均は営業記録のある日だけが対象です。</p>
+<p class="hint">売上は確定済み会計の合計。営業区分は日付ごとに設定し、その日のすべての会計に適用します。毎週日曜は原則定休日ですが特別営業を登録できます。売上があって営業区分未設定の過去日は「区分未設定」として別集計します。未記録日を0円とはみなしません。</p>
 </section><h3 class="section gap">🌤️ 天候別売上分析</h3><div id="weatherAnalytics" aria-live="polite"></div><p class="hint">天候と売上の両方が記録された営業日の平均です。売上未記録日は0円とみなさず集計から除外します。</p><h3 class="section gap">売上履歴</h3>
 <div id="saleEditPanel" class="saleEditPanel" hidden>
  <h3 class="section" id="saleEditTitle">✏️ 過去の売上を編集</h3>
@@ -580,18 +590,62 @@ $('editSaleCancel').addEventListener('click',closeSaleEdit);
 $('editSaleSave').addEventListener('click',saveSaleEdit);
 $('editSaleAdd').addEventListener('click',()=>{const m=data.menu.find(x=>x.id===$('editSaleMenu').value);if(m)editItemsChange(m.name,m.price,1);else notice('商品を選んでください')});
 $('editSaleAddCustom').addEventListener('click',()=>{const n=Number($('editSaleCustom').value);if(!moneyOK(n))return notice('正しい税抜金額を入力してください');editItemsChange('その他入力',n,1);$('editSaleCustom').value=''});
-function renderReport(){const all=subset(),sum=a=>a.reduce((z,x)=>z+x.amount,0);const r=$('report');r.replaceChildren();function line(a,b){const row=entry('div',undefined,'totalLine');row.append(entry('span',a),entry('b',b));r.append(row)}line('売上合計',yen(sum(all)));line('件数',all.length+'件');for(const cat of ['ママ','ゆめあ','カテゴリーなし'])line(cat,yen(sum(all.filter(x=>x.attribution===cat))));const history=$('history');history.replaceChildren();const filter=$('attributionFilter').value;for(const x of all.filter(x=>filter==='all'||x.attribution===filter)){const customer=data.customers.find(c=>c.id===x.customerId);const row=entry('div',undefined,'entry');const txt=entry('div');txt.append(entry('strong',yen(x.amount)),entry('div',`${x.date} ／ ${data.days.find(d=>d.business_date===x.date)?.weather||'天候未登録'} ／ ${x.method} ／ ${customer?customerLabel(customer):'新規'} ／ ${x.attribution}`,'detail'),entry('div',x.items.map(i=>i.name+' '+yen(i.price)).join('、')+(x.memo?' ／ '+x.memo:''),'detail'));const actions=entry('div',undefined,'smallActions');actions.append(btn('編集',()=>startSaleEdit(x.id)));actions.append(btn('削除',async()=>{if(!confirm(`${x.date} ${yen(x.amount)} の売上を削除しますか？`))return;await change(async()=>await api('delete','sales',null,x.id),'売上を削除しました')},'delete'));row.append(txt,actions);history.append(row)}if(!history.childElementCount)history.append(entry('p','この条件の売上はありません','hint'));renderWeatherAnalytics();renderResearchCalendar()}
+function renderReport(){const all=subset(),sum=a=>a.reduce((z,x)=>z+x.amount,0);const r=$('report');r.replaceChildren();function line(a,b){const row=entry('div',undefined,'totalLine');row.append(entry('span',a),entry('b',b));r.append(row)}line('売上合計',yen(sum(all)));line('件数',all.length+'件');for(const cat of ['ママ','ゆめあ','カテゴリーなし'])line('参考：会計時 '+cat,yen(sum(all.filter(x=>x.attribution===cat))));const history=$('history');history.replaceChildren();const filter=$('attributionFilter').value;for(const x of all.filter(x=>filter==='all'||x.attribution===filter)){const customer=data.customers.find(c=>c.id===x.customerId);const row=entry('div',undefined,'entry');const txt=entry('div');txt.append(entry('strong',yen(x.amount)),entry('div',`${x.date} ／ ${data.days.find(d=>d.business_date===x.date)?.weather||'天候未登録'} ／ ${x.method} ／ ${customer?customerLabel(customer):'新規'} ／ ${x.attribution}`,'detail'),entry('div',x.items.map(i=>i.name+' '+yen(i.price)).join('、')+(x.memo?' ／ '+x.memo:''),'detail'));const actions=entry('div',undefined,'smallActions');actions.append(btn('編集',()=>startSaleEdit(x.id)));actions.append(btn('削除',async()=>{if(!confirm(`${x.date} ${yen(x.amount)} の売上を削除しますか？`))return;await change(async()=>await api('delete','sales',null,x.id),'売上を削除しました')},'delete'));row.append(txt,actions);history.append(row)}if(!history.childElementCount)history.append(entry('p','この条件の売上はありません','hint'));renderBusinessTypeReport();renderWeatherAnalytics();renderResearchCalendar()}
 const WEATHER_TYPES=['晴れ','曇り','雨','荒天','雪'];
-const WEATHER_ICON={'晴れ':'☀️','曇り':'☁️','雨':'🌧️','荒天':'⛈️','雪':'❄️'};
-function renderWeatherDay(){const d=$('saleDate').value,r=researchDayRow(d),status=researchBusinessStatus(d);
- document.querySelectorAll('input[name="weather"]').forEach(x=>x.checked=!!r&&x.value===r.weather);
- $('openStatus').value=r?.business_status||status||'営業';
- if(r){$('weatherCurrent').textContent=`${d}：${WEATHER_ICON[r.weather]||''} ${r.weather} ／ ${r.business_status}（保存済み）`;}
- else if(researchIsAutoSunday(d)){$('weatherCurrent').textContent=`${d}：毎週日曜の定休日（自動表示・未保存）／ 天候未登録`;}
- else if(status==='営業'){$('weatherCurrent').textContent=`${d}：売上記録から営業と判定 ／ 天候未登録（営業状況は未保存）`;}
- else {$('weatherCurrent').textContent=`${d}：未登録（営業・天候を選んで保存）`;}
+// 営業日区分は日付に属する。顧客の所属・会計時の売上カテゴリーとは独立。
+const BUSINESS_TYPES=[
+ {value:'営業',label:'🏠 通常営業日',short:'🏠通常'},
+ {value:'ママ営業',label:'💛 ママ営業日',short:'💛ママ'},
+ {value:'ゆめあ営業',label:'★ ゆめあ営業日',short:'★ゆめあ'},
+ {value:'休業',label:'休業日',short:'休業'}
+];
+const BUSINESS_TYPE_MAP=Object.fromEntries(BUSINESS_TYPES.map(x=>[x.value,x]));
+const businessTypeIsOpen=x=>x==='営業'||x==='ママ営業'||x==='ゆめあ営業';
+const businessTypeLabel=x=>BUSINESS_TYPE_MAP[x]?.label||'区分未設定';
+// 明示的な営業区分のない会計は「未分類」。過去の売上の帰属を憶測で決めない。
+function saleBusinessType(date){
+ const status=data.days.find(x=>x.business_date===date)?.business_status;
+ return BUSINESS_TYPE_MAP[status]?status:'未分類';
 }
-function renderWeatherAnalytics(){const host=$('weatherAnalytics');host.replaceChildren();const days=data.days.filter(x=>x.business_status==='営業'&&WEATHER_TYPES.includes(x.weather)).filter(x=>{
+function businessTypeTotals(sales){
+ const groups=new Map([...BUSINESS_TYPES.map(x=>x.value),'未分類'].map(x=>[x,{total:0,count:0,dates:new Set()}]));
+ for(const sale of sales){const key=saleBusinessType(sale.date),v=groups.get(key);v.total+=sale.amount;v.count++;v.dates.add(sale.date)}
+ return groups;
+}
+function renderBusinessTypeReport(){
+ const host=$('businessTypeReport');host.replaceChildren();const sales=subset(),groups=businessTypeTotals(sales);
+ const table=entry('table');const head=entry('thead');const thr=entry('tr');
+ for(const h of ['営業区分','売上合計','会計件数','区分登録日','売上記録日','記録日平均'])thr.append(entry('th',h));head.append(thr);table.append(head);
+ const registered=new Map(BUSINESS_TYPES.map(x=>[x.value,new Set()]));
+ const period=$('period').value,now=today();
+ for(const day of data.days){
+  const key=day.business_status,date=day.business_date;
+  if(!registered.has(key))continue;
+  if(period==='today'&&date!==now||period==='month'&&!date.startsWith(now.slice(0,7))||period==='date'&&date!==$('filterDate').value)continue;
+  registered.get(key).add(date);
+ }
+ const tbody=entry('tbody');
+ for(const [key,v] of groups){
+  const tr=entry('tr');const label=key==='未分類'?'⚠️ 区分未設定':key==='休業'&&v.count?'休業日（売上あり・要確認）':businessTypeLabel(key);
+  for(const text of [label,yen(v.total),v.count+'件',registered.has(key)?registered.get(key).size+'日':'—',v.dates.size+'日',v.dates.size?yen(Math.round(v.total/v.dates.size)):'—'])tr.append(entry('td',text));
+  tbody.append(tr)
+ }
+ const sum=entry('tr');for(const t of ['合計',yen(sales.reduce((a,x)=>a+x.amount,0)),sales.length+'件','—',new Set(sales.map(s=>s.date)).size+'日','—'])sum.append(entry('th',t));tbody.append(sum);
+ table.append(tbody);host.append(table);
+}
+
+const WEATHER_ICON={'晴れ':'☀️','曇り':'☁️','雨':'🌧️','荒天':'⛈️','雪':'❄️'};
+function renderWeatherDay(){
+ const d=$('saleDate').value,r=researchDayRow(d),st=researchBusinessStatus(d);
+ document.querySelectorAll('input[name="weather"]').forEach(x=>x.checked=!!r&&x.value===r.weather);
+ $('openStatus').value=r?.business_status||st||'営業';
+ const weather=r?.weather?(WEATHER_ICON[r.weather]||'')+' '+r.weather:'天候未登録';
+ if(r){$('weatherCurrent').textContent=`${d}：${weather} ／ ${businessTypeLabel(r.business_status)}（保存済み）`;}
+ else if(researchIsAutoSunday(d)){$('weatherCurrent').textContent=`${d}：毎週日曜の定休日（自動表示・未保存）／ 天候未登録`;}
+ else if(researchDayEntries(d).length){$('weatherCurrent').textContent=`${d}：売上あり・営業区分未設定 ／ 天候未登録`;}
+ else {$('weatherCurrent').textContent=`${d}：未登録（営業区分と天候は個別に保存可能）`;}
+}
+function renderWeatherAnalytics(){const host=$('weatherAnalytics');host.replaceChildren();const days=data.days.filter(x=>businessTypeIsOpen(x.business_status)&&WEATHER_TYPES.includes(x.weather)).filter(x=>{
  const p=$('period').value,d=today();return p==='all'||p==='today'&&x.business_date===d||p==='month'&&x.business_date.startsWith(d.slice(0,7))||p==='date'&&x.business_date===$('filterDate').value;
 });
 if(!days.length){host.append(entry('p','この期間には天候登録済みの営業日がありません。','hint'));return;}
@@ -615,24 +669,25 @@ function researchDayRow(date){return data.days.find(d=>d.business_date===date)}
 function researchIsSunday(date){if(!/^\d{4}-\d{2}-\d{2}$/.test(date))return false;const [year,month,day]=date.split('-').map(Number);return new Date(Date.UTC(year,month-1,day)).getUTCDay()===0}
 function researchBusinessStatus(date){
  const explicit=researchDayRow(date)?.business_status;
- if(explicit==='営業'||explicit==='休業')return explicit;
- // 過去の実際の売上を「定休日」と誤表示しないため、登録済み売上が優先。
+ if(BUSINESS_TYPE_MAP[explicit])return explicit;
+ // 売上はあっても「ママ・ゆめあ営業」とは推測しない。表示上は営業実績として扱う。
  if(researchDayEntries(date).length)return '営業';
  return researchIsSunday(date)?'休業':'';
 }
 function researchIsAutoSunday(date){return researchIsSunday(date)&&!researchDayRow(date)&&researchDayEntries(date).length===0}
-function researchStatusText(date){const record=researchDayRow(date),status=researchBusinessStatus(date);
- if(record)return status==='営業'&&researchIsSunday(date)?'営業（特別営業・保存済み）':status+'（保存済み）';
- if(researchIsAutoSunday(date))return '定休日（毎週日曜・自動表示）';
- if(status==='営業')return '営業（売上記録あり・営業状況未保存）';
- return '営業状況未登録';
+function researchStatusText(date){
+ const record=researchDayRow(date),status=researchBusinessStatus(date);
+ if(record&&BUSINESS_TYPE_MAP[record.business_status])return businessTypeLabel(status)+(businessTypeIsOpen(status)&&researchIsSunday(date)?'（日曜特別営業・保存済み）':'（保存済み）');
+ if(researchIsAutoSunday(date))return '休業日（毎週日曜・自動表示）';
+ if(researchDayEntries(date).length)return '売上あり・営業区分未設定';
+ return '営業区分未登録';
 }
 function researchMonthShift(n){const d=new Date(Date.UTC(researchYear,researchMonth-1+n,1));const y=d.getUTCFullYear();if(y<2000||y>2100)return;researchYear=y;researchMonth=d.getUTCMonth()+1;researchSelected=researchKey(researchYear,researchMonth,1);renderResearchCalendar()}
 function researchDetailLine(host,label,value){const row=entry('div',undefined,'totalLine');row.append(entry('span',label),entry('b',value));host.append(row)}
 function renderResearchDay(date){
  const target=$('researchDayDetail');target.replaceChildren();const sales=researchDayEntries(date),day=researchDayRow(date);const total=sales.reduce((a,x)=>a+x.amount,0);
  target.append(entry('h4',`${date.slice(5).replace('-','月')}日 の詳細`));
- researchDetailLine(target,'天候・営業状況',`${day?researchWeatherIcon[day.weather]+' '+day.weather:'天候未登録'} ／ ${researchStatusText(date)}`);
+ researchDetailLine(target,'天候・営業区分',`${day?.weather?(researchWeatherIcon[day.weather]||'')+' '+day.weather:'天候未登録'} ／ ${researchStatusText(date)}`);
  researchDetailLine(target,'確定売上',sales.length?yen(total):(researchBusinessStatus(date)==='休業'?'休業（売上記録なし）':researchBusinessStatus(date)==='営業'?'売上未記録':'未記録'));
  researchDetailLine(target,'会計件数',sales.length+' 件');
  // カレンダーから既存の入力画面へ移動。天候編集は従来の保存処理を再利用する。
@@ -640,19 +695,20 @@ function renderResearchDay(date){
  const weatherLabel=entry('label','天候 ');const weatherSelect=entry('select');weatherSelect.append(new Option('天候を選択',''));
  for(const w of ['晴れ','曇り','雨','荒天','雪'])weatherSelect.append(new Option(w,w));
  weatherSelect.value=day?.weather||'';weatherLabel.append(weatherSelect);
- const statusLabel=entry('label','営業状況 ');const statusSelect=entry('select');
- for(const v of ['営業','休業'])statusSelect.append(new Option(v,v));
+ const statusLabel=entry('label','営業区分 ');const statusSelect=entry('select');
+ for(const v of BUSINESS_TYPES)statusSelect.append(new Option(v.label,v.value));
  statusSelect.value=researchBusinessStatus(date)||'営業';statusLabel.append(statusSelect);
- quickActions.append(weatherLabel,statusLabel,btn('天候・営業状況を保存',async()=>{
-  if(!WEATHER_TYPES.includes(weatherSelect.value))return notice('営業・休業を保存するには天候も選択してください');
-  await change(async()=>{const r=await weatherApi('save',date,weatherSelect.value,statusSelect.value);return r},'営業日の記録を更新しました');
+ quickActions.append(weatherLabel,statusLabel,btn('営業区分・天候を保存',async()=>{
+  if(!BUSINESS_TYPE_MAP[statusSelect.value])return notice('営業区分を選んでください');
+  await change(async()=>{const r=await weatherApi('save',date,weatherSelect.value||null,statusSelect.value);return r},'営業区分・天候を更新しました');
  },'btn secondary'));
  quickActions.append(btn('＋ この日に売上を追加',()=>startSaleCreate(date),'btn'));
- target.append(quickActions);if(researchIsAutoSunday(date))target.append(entry('p','この定休日は自動表示です。天候と「営業」を選んで保存すると特別営業に切り替わります。','hint'));if(sales.length&&researchBusinessStatus(date)==='休業')target.append(entry('p','注意：休業扱いですが売上記録があります。営業状況を確認してください。','notice'));
+ target.append(quickActions);if(researchIsAutoSunday(date))target.append(entry('p','この定休日は自動表示です。営業区分を選んで保存すると特別営業に切り替わります。','hint'));if(sales.length&&researchBusinessStatus(date)==='休業')target.append(entry('p','注意：休業扱いですが売上記録があります。営業区分を確認してください。','notice'));if(sales.length&&saleBusinessType(date)==='未分類')target.append(entry('p','この日は売上がありますが営業区分が未設定です。上で区分を選んで保存すると該当する営業日の売上に移ります。','notice'));
 
  if(sales.length){
   researchDetailLine(target,'1会計あたり',yen(Math.round(total/sales.length)));
-  for(const cat of ['ママ','ゆめあ','カテゴリーなし'])researchDetailLine(target,cat,yen(sales.filter(x=>x.attribution===cat).reduce((a,x)=>a+x.amount,0)));
+  researchDetailLine(target,'この日の売上帰属',businessTypeLabel(saleBusinessType(date))+' ／ '+yen(total));
+  for(const cat of ['ママ','ゆめあ','カテゴリーなし'])researchDetailLine(target,'参考：会計時 '+cat,yen(sales.filter(x=>x.attribution===cat).reduce((a,x)=>a+x.amount,0)));
   const customers=new Map();const products=new Map();
   for(const s of sales){const customer=data.customers.find(c=>c.id===s.customerId)?.name||'新規';customers.set(customer,(customers.get(customer)||0)+s.amount);
    for(const item of s.items||[]){const name=cleanProductName(item.name);const key=JSON.stringify([name,item.price]);const p=products.get(key)||{name,count:0,total:0};p.count++;p.total+=item.price;products.set(key,p)}
@@ -676,7 +732,7 @@ function renderResearchInsights(monthDates,byDate){
  const host=$('researchInsights');host.replaceChildren();host.append(entry('h4','曜日別の研究（この月）','section'));
  const weekdays=['日','月','火','水','木','金','土'];
  const rows=weekdays.map((name,weekday)=>({name,days:0,recorded:0,total:0,transactions:0}));
- for(const date of monthDates){if(researchBusinessStatus(date)!=='営業')continue;const p=date.split('-').map(Number);const i=new Date(Date.UTC(p[0],p[1]-1,p[2])).getUTCDay();const item=rows[i];item.days++;if(!byDate.has(date))continue;item.recorded++;const s=byDate.get(date);item.total+=s.total;item.transactions+=s.count}
+ for(const date of monthDates){if(!businessTypeIsOpen(researchBusinessStatus(date)))continue;const p=date.split('-').map(Number);const i=new Date(Date.UTC(p[0],p[1]-1,p[2])).getUTCDay();const item=rows[i];item.days++;if(!byDate.has(date))continue;item.recorded++;const s=byDate.get(date);item.total+=s.total;item.transactions+=s.count}
  const tbl=entry('table',undefined,'researchMiniTable');const thead=entry('thead'),head=entry('tr');for(const n of ['曜日','営業登録日','売上記録日','記録日平均売上','会計件数'])head.append(entry('th',n));thead.append(head);tbl.append(thead);const tbody=entry('tbody');
  for(const r of rows){const tr=entry('tr');for(const v of [r.name+'曜',r.days+'日',r.recorded+'日',r.recorded?yen(Math.round(r.total/r.recorded)):'—',r.transactions+'件'])tr.append(entry('td',v));tbody.append(tr)}tbl.append(tbody);host.append(tbl);
  const monthSales=data.sales.filter(x=>x.date.startsWith(researchKey(researchYear,researchMonth,1).slice(0,7)));
@@ -695,12 +751,18 @@ function renderResearchCalendar(){
  for(const [label,value] of [['月間売上',yen(monthTotal)],['会計件数',count+'件'],['営業確認日数',registered.length+'日'],['定休日・休業日数',closed.length+'日'],['売上未記録の営業日',missing+'日'],['売上記録日平均',recorded.length?yen(Math.round(recorded.reduce((sum,date)=>sum+byDate.get(date).total,0)/recorded.length)):'—']]){
   const metric=entry('div',undefined,'researchMetric');metric.append(entry('span',label),entry('strong',value));summary.append(metric)
  }
+ const monthSales=data.sales.filter(x=>dates.includes(x.date));const monthGroups=businessTypeTotals(monthSales);
+ for(const [type,label] of [['営業','🏠 通常営業売上'],['ママ営業','💛 ママ営業売上'],['ゆめあ営業','★ ゆめあ営業売上'],['未分類','⚠️ 区分未設定売上'],['休業','休業日売上（要確認）']]){
+  const value=monthGroups.get(type);const metric=entry('div',undefined,'researchMetric');metric.append(entry('span',label),entry('strong',yen(value.total)),entry('span',value.dates.size+'記録日'));summary.append(metric)
+ }
  for(let i=0;i<first;i++){const empty=entry('div',undefined,'ry-empty');empty.setAttribute('aria-hidden','true');grid.append(empty)}
  const positives=dates.map(d=>byDate.get(d)?.total||0).filter(n=>n>0).sort((a,b)=>a-b);const median=positives.length?positives[Math.floor((positives.length-1)/2)]:0;
  for(const date of dates){const day=researchDayRow(date),item=byDate.get(date),total=item?.total||0,effectiveStatus=researchBusinessStatus(date),autoSunday=researchIsAutoSunday(date);
   const button=entry('button',undefined,'');button.type='button';button.setAttribute('aria-pressed',String(researchSelected===date));
   if(researchIsSunday(date))button.classList.add('ry-sunday');if(effectiveStatus==='休業')button.classList.add('ry-closed');else if(total>=median&&total>0)button.classList.add('ry-high');else if(!day&&!item)button.classList.add('ry-unrecorded');
-  const d=Number(date.slice(-2));button.append(entry('span',String(d),'ry-num'),entry('span',effectiveStatus==='休業'?(autoSunday?'定':'休'):researchWeatherIcon[day?.weather]||'·','ry-weather'),entry('span',effectiveStatus==='休業'&&!item?(autoSunday?'定休日':'休業'):item?researchShortYen(total)+'円':'未記録','ry-money'));
+  if(effectiveStatus==='ママ営業')button.classList.add('ry-mama');if(effectiveStatus==='ゆめあ営業')button.classList.add('ry-yumea');if(item&&saleBusinessType(date)==='未分類')button.classList.add('ry-unknown');
+  const d=Number(date.slice(-2));const typeLabel=item&&saleBusinessType(date)==='未分類'?'⚠未設定':(autoSunday?'定休':BUSINESS_TYPE_MAP[effectiveStatus]?.short||'未設定');
+  button.append(entry('span',String(d),'ry-num'),entry('span',typeLabel,'ry-business'),entry('span',researchWeatherIcon[day?.weather]||'·','ry-weather'),entry('span',effectiveStatus==='休業'&&!item?(autoSunday?'定休日':'休業'):item?researchShortYen(total)+'円':'未記録','ry-money'));
   button.append(entry('span',item?item.count+'件':'','ry-count'));
   button.setAttribute('aria-label',`${date}、${day?.weather||'天候未登録'}、${researchStatusText(date)}、${item?yen(total)+'、'+item.count+'会計':'会計記録なし'}`);
   button.addEventListener('click',()=>{researchSelected=date;for(const b of grid.querySelectorAll('button'))b.setAttribute('aria-pressed',String(b===button));renderResearchDay(date)});
@@ -717,7 +779,7 @@ $('saleCustomerSearch').addEventListener('input',()=>renderSaleCustomerOptions()
 $('saleOwnerFilter').addEventListener('change',()=>{$('saleCustomerSearch').value='';renderSaleCustomerOptions()});
 $('saleDate').addEventListener('change',()=>sendSeat('set',{field:'date',value:$('saleDate').value}));
 for(const [id,field] of [['saleCustomer','customerId'],['saleAttribution','attribution'],['payMethod','method'],['memo','memo']])$(id).addEventListener('change',()=>{if(id==='payMethod')renderCart();sendSeat('set',{field,value:$(id).value});});
-$('saveWeather').addEventListener('click',async()=>{const date=$('saleDate').value;const weather=document.querySelector('input[name="weather"]:checked')?.value;const state=$('openStatus').value;if(!/^\d{4}-\d{2}-\d{2}$/.test(date))return notice('日付を選択してください');if(!WEATHER_TYPES.includes(weather))return notice('天候を選択してください');await change(async()=>await weatherApi('save',date,weather,state),'天候・営業状況を共有保存しました');});
+$('saveWeather').addEventListener('click',async()=>{const date=$('saleDate').value;const weather=document.querySelector('input[name="weather"]:checked')?.value;const state=$('openStatus').value;if(!/^\d{4}-\d{2}-\d{2}$/.test(date))return notice('日付を選択してください');if(!BUSINESS_TYPE_MAP[state])return notice('営業区分を選択してください');await change(async()=>await weatherApi('save',date,weather||null,state),'営業区分・天候を共有保存しました');});
 for(const tab of ['Sale','Customer','Menu','Report'])$('tab'+tab).addEventListener('click',()=>switchTab(tab));
 $('loginForm').addEventListener('submit',async e=>{e.preventDefault();$('loginError').textContent='';$('loginButton').disabled=true;try{pin=$('loginPin').value.trim();if(!/^[0-9]{4}$/.test(pin))throw Error('4桁の数字を入力してください');await openShared();localStorage.setItem('yua-shared-pin-v92',pin);$('loginPin').value='';}catch(e){$('loginError').textContent='開けません：'+errorText(e)}finally{$('loginButton').disabled=false}});
 $('logoutBtn').addEventListener('click',()=>{clearInterval(timer);localStorage.removeItem('yua-shared-pin-v92');data={menu:[],customers:[],sales:[],days:[]};cart=[];pin='';showLogin('この端末のPIN記憶を解除しました')});
@@ -740,7 +802,7 @@ $('cancelMenu').addEventListener('click',clearMenu);
 $('seedMenu').addEventListener('click',async()=>{if(data.menu.length)return;if(!confirm('写真から作成した初期メニューを登録しますか？ 価格は後で確認・修正できます。'))return;await change(async()=>await api('seed','menu',BASE_MENU.map(([name,price,category],i)=>({id:uuid(),name,category,price,sort_order:i+1}))), '初期メニューを登録しました')});
 $('researchPrev').addEventListener('click',()=>researchMonthShift(-1));$('researchNext').addEventListener('click',()=>researchMonthShift(1));$('researchToday').addEventListener('click',()=>{researchYear=Number(today().slice(0,4));researchMonth=Number(today().slice(5,7));researchSelected=today();renderResearchCalendar()});
 $('period').addEventListener('change',()=>{$('filterDateWrap').hidden=$('period').value!=='date';renderReport()});$('filterDate').addEventListener('change',renderReport);$('attributionFilter').addEventListener('change',renderReport);
-$('csvExport').addEventListener('click',()=>{const rows=[['営業日','天候','営業状況','金額','支払方法','顧客','カテゴリー','メニュー','メモ'],...data.sales.map(s=>[s.date,data.days.find(d=>d.business_date===s.date)?.weather||'',data.days.find(d=>d.business_date===s.date)?.business_status||'',s.amount,s.method,data.customers.find(c=>c.id===s.customerId)?.name||'新規',s.attribution,s.items.map(i=>i.name+':'+i.price).join(' / '),s.memo])];const out='\uFEFF'+rows.map(r=>r.map(c=>'"'+String(c??'').replaceAll('"','""')+'"').join(',')).join('\r\n');download('ゆあ売上_'+today()+'.csv',out,'text/csv;charset=utf-8')});
+$('csvExport').addEventListener('click',()=>{const rows=[['営業日','天候','営業区分（売上帰属）','金額','支払方法','顧客','会計時の売上カテゴリー','メニュー','メモ'],...data.sales.map(s=>[s.date,data.days.find(d=>d.business_date===s.date)?.weather||'',saleBusinessType(s.date),s.amount,s.method,data.customers.find(c=>c.id===s.customerId)?.name||'新規',s.attribution,s.items.map(i=>i.name+':'+i.price).join(' / '),s.memo])];const out='\uFEFF'+rows.map(r=>r.map(c=>'"'+String(c??'').replaceAll('"','""')+'"').join(',')).join('\r\n');download('ゆあ売上_'+today()+'.csv',out,'text/csv;charset=utf-8')});
 $('jsonExport').addEventListener('click',()=>download('ゆあバックアップ_'+today()+'.json',JSON.stringify(data,null,2),'application/json;charset=utf-8'));
 document.addEventListener('visibilitychange',()=>{if(!document.hidden&&allowed)fetchAll(true)});
 // PINは4桁の試作方式。DBのテーブルを直接公開せず、PIN付きRPCで操作します。
